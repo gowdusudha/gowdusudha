@@ -1,9 +1,8 @@
 #include<stdio.h>
 void main()
 {
-	int a,b;
+	int a ,b;
 	a=34;
-	b=4;
-	printf("%d<%d-->%d:",a,b,a<b);
+	b=23;
+	printf("%d", (34<23)||(34>23));
 }
- 
